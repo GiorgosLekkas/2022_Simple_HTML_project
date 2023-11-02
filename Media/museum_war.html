@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Πολεμικό Μουσείο Τρίπολης</title>
+    <link rel="stylesheet" href="../Styles/museum_presentation.css" type="text/css" />
+    <link rel="shortcut icon" href="Photos/Logo/logo.png" type="image/x-icon" />
+    <script src="../Scripts/script1.js" defer></script>
+    <script src="../Scripts/script2.js" defer></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <img src="Photos/Logo/papel.png" alt="logo" />
+        <h1>ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΛΟΠΟΝΝΗΣΟΥ</h1>
+        <h2>ΣΧΟΛΗ ΟΙΚΟΝΟΜΙΑΣ, ΔΙΟΙΚΗΣΗΣ ΚΑΙ ΠΛΗΡΟΦΟΡΙΚΗΣ</h2>
+        <h3>Τμήμα Πληροφορικής και Τηλεπικοινωνιών</h3>
+    </div>
+    <div class="navbar" id="myMenu">
+        <div class="dropdown">
+            <button class="btns" onclick="document.location='index.html'">Αρχική</button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="document.location='squares.html'">Πλατείες</button>
+            <div class="dropdown-content">
+                <a href="square_areos.html">Πλατεία Άρεως</a>
+                <a href="square_petrinou.html">Πλατεία Πετρινού</a>
+                <a href="square_vasileiou.html">Πλατεία Αγίου Βασιλείου</a>
+                <a href="square_kolokotroni.html">Πλατεία Κολοκοτρώνη</a>
+                <a href="square_aneksartisias.html">Πλατεία Ανεξαρτησίας</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn active" onclick="document.location='museum.html'">Μουσεία</button>
+            <div class=" dropdown-content ">
+                <a href="museum_war.html">Πολεμικό Μουσείο Τρίπολης</a>
+                <a href="museum_archaeological.html">Αρχαιολογικό Μουσείο Τρίπολης</a>
+            </div>
+        </div>
+        <div class="dropdown ">
+            <button class="dropbtn" onclick="document.location='parks.html'">Πάρκα</button>
+            <div class="dropdown-content ">
+                <a href="park_dikastikou_megarou.html">Πάρκο Δικαστικού Μεγάρου</a>
+                <a href="park_apostolopouleiou_pneumatiokou_kentrou.html">Πάρκο Αποστολοπούλειου Πνευματικού Κέντρου</a>
+                <a href="park_filodentron.html">Πάρκο Φιλοδέντρων</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="document.location='more.html'">Περισσότερα</button>
+            <div class="dropdown-content">
+                <a href="more_dikastiko_megaro.html">Δικαστικό Μέγαρο</a>
+                <a href="more_apostolopouleio_pneumatiko_kentro.html">Αποστολοπούλειο Πνευματικό Κέντρο</a>
+                <a href="more_malliaropouleio_dhmotiko_theatro.html">Μαλλιαροπούλειο Δημοτικό Θέατρο Τρίπολης</a>
+                <a href="more_also_agiou_georgiou.html">Άλσος Αγίου Γεωργείου</a>
+            </div>
+        </div>
+    </div>
+    <div class="boarder ">
+        <label class="content_title"><b>Πολεμικό Μουσείο Τρίπολης</b></label>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="Photos/Polemiko_Mouseio/image1.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Photos/Polemiko_Mouseio/image3.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Photos/Polemiko_Mouseio/image5.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Photos/Polemiko_Mouseio/image6.jpeg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+        <p class="info">Το Πολεμικό Μουσείο Τρίπολης αποτελεί παράρτημα του Πολεμικού Μουσείου της Αθήνας και βρίσκεται στην πλατεία Αγίου Βασιλείου στην Τρίπολη, στο ισόγειο της πρώην οικίας του γιατρού Ιωάννη Μαλλιαρόπουλου. Το κτήριο κτίστηκε το 1861 και εγκαινιάστηκε
+            σαν μουσείο το 2000. Στο μουσείο βρίσκονται κυρίως εκθέματα από την Επανάσταση του 1821 και του πολέμου του 1940. Έχει έντεκα ενότητες που καλύπτουν θεματικά τους αγώνες των Ελλήνων: όπλα και τεκμήρια από την επανάσταση του 1821, τον Ελληνοτουρκικό
+            πόλεμο, τον Μακεδονικό Αγώνα, τους Βαλκανικούς Πολέμους, τη Μικρασιατική εκστρατεία, τις μάχες των Ελλήνων με τους Ιταλούς και τους Γερμανούς κατά τον Β&#39; Παγκόσμιο Πόλεμο και μέχρι τη Μέση Ανατολή και την Απελευθέρωση. Τα σημαντικότερα
+            εκθέματα του μουσείου είναι το νεκρικό προσωπείο του Θεόδωρου Κολοκοτρώνη, τα όπλα των αγωνιστών της Τριπολιτσάς του 1821 και οι λιθογραφίες του Πέτερ Φον Ες με τους αγωνιστές του 1821. Το μουσείο είναι ανοιχτό από τις 10:00 ως τις 17:00 τους
+            χειμερινούς μήνες και από τις 10:00 ως τις 19:00 την θερινή περίοδο. Τις Δευτέρες το μουσείο παραμένει κλειστό και η τιμή εισιτηρίου είναι 2 €.
+        </p>
+        <div data-multi-step class="multi-step-form ">
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image1.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Πολεμικό Μουσείο
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous disabled>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image2.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Παλαιών Πατρών Γερμανός
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image3.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Οδυσσέας Ανδρούτσος
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image4.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        --------------
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image5.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Χώρος Πολεμικού Μουσείου
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image6.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Χώρος Πολεμικού Μουσείου
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image7.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Θερινή Στολή Εύζωνος της Ανακτορικής Φρουράς
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image8.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Χειμερινή Στολή Εύζωνος της Ανακτορικής Φρουράς
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image11.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Απελευθέρωση
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image12.1.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Κατοχή
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image12.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Μ.Ανατολή - ΡΙΜΙΝΙ
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image13.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Γερμανική Εισβολή
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image14.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Ελληνοϊταλικός
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image15.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Α' Παγκόσμιος Πόλεμος - Μ.Ασία
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image16.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Βαλκανικοί Πόλεμοι
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image17.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Μακεδονικός Αγώνας
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image18.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενδυμασία του Ήρωα Μπαμπανικολού
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image19.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα 1897
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image20.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Νεκρό Προσωπείο του Θεόδωρου Κολοκοτρώνη
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image22.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ανδρική Φορεσία Βαλτετσίου Αρκαδίας
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image23.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Γυναικία Φορεσία Βαλτετσίου Αρκαδίας
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image24.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Όπλα
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image25.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Θεόδορος Κολοκοτρώνης
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image26.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Ενότητα Ελληνική Επανάσταση
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image28.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        --------------
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image30.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Πίνακας στη μνήμη του Επισμηνία Βαλκανά Γρηγόριου
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image31.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Μεγάλη στολή Συνταγματάρχη Τεθωρρακισμένων
+                    </p>
+                </div>
+                <button class="next " type="button " data-next>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+            <div class="card " data-step>
+                <img class="image " src="Photos/Polemiko_Mouseio/image32.jpeg " alt=" ">
+                <div class="image_overlay ">
+                    <p class="image_description ">
+                        Στολή Υπηρεσίας Ανθυπολοχαγού του ΠΒ
+                    </p>
+                </div>
+                <button class="next " type="button " data-next disabled>Next</button>
+                <button class="previous " type="button " data-previous>Previous</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li class="first_row"><a href="squares.html">Πλατείες</a></li>
+            <li class="row"><a href="square_areos.html">Πλατεία Άρεως</a></li>
+            <li class="row"><a href="square_petrinou.html">Πλατεία Πετρινού</a></li>
+            <li class="row"><a href="square_vasileiou.html">Πλατεία Αγίου Βασιλείου</a></li>
+            <li class="row"><a href="square_kolokotroni.html">Πλατεία Κολοκοτρώνη</a></li>
+            <li class="row"><a href="square_aneksartisias.html">Πλατεία Ανεξαρτησίας</a></li>
+        </ul>
+        <ul>
+            <li class="first_row"><a href="museum.html">Μουσεία</a></li>
+            <li class="row"><a href="museum_war.html">Πολεμικό Μουσείο Τρίπολης</a></li>
+            <li class="row"><a href="museum_archaeological.html">Αρχαιολογικό Μουσείο Τρίπολης</a></li>
+
+        </ul>
+        <ul>
+            <li class="first_row"><a href="parks.html">Πάρκα</a></li>
+            <li class="row"><a href="park_dikastikou_megarou.html">Πάρκο Δικαστικού Μεγάρου</a></li>
+            <li class="row"><a href="park_apostolopouleiou_pneumatiokou_kentrou.html">Πάρκο Αποστολοπούλειου Πνευματικού Κέντρου</a></li>
+            <li class="row"><a href="park_filodentron.html">Πάρκο Φιλοδέντρων</a></li>
+        </ul>
+        <ul>
+            <li class="first_row"><a href="more.html">Περισσότερα</a></li>
+            <li class="row"><a href="more_dikastiko_megaro.html">Δικαστικό Μέγαρο</a></li>
+            <li class="row"><a href="more_apostolopouleio_pneumatiko_kentro.html">Αποστολοπούλειο Πνευματικό Κέντρο</a></li>
+            <li class="row"><a href="more_malliaropouleio_dhmotiko_theatro.html">Μαλλιαροπούλειο Δημοτικό Θέατρο Τρίπολης</a></li>
+            <li class="row"><a href="more_also_agiou_georgiou.html">Άλσος Αγίου Γεωργείου</a></li>
+        </ul>
+        <ul>
+            <li class="first_row">Επικοινωνία </li>
+            <li class="row">Γεώργιος Λέκκας</li>
+            <li class="row">2022201800108</li>
+            <li class="row">dit18108@go.uop.gr</li>
+        </ul>
+    </div>
+</body>
+
+</html>
